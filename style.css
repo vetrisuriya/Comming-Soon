@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+  padding: 40px 0px;
+}
+body header {
+  width: 30%;
+  height: 10%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+body main {
+  width: 30%;
+  height: 75%;
+  row-gap: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main section {
+  width: 100%;
+}
+body main section h1 {
+  font-size: 36px;
+  color: #969696;
+  font-weight: 100;
+  text-align: center;
+}
+body main section h1 strong {
+  color: black;
+}
+body main section h6 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #969696;
+  font-weight: 100;
+}
+body main section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+body main section form .form-control {
+  width: 70%;
+}
+body main section form .form-control input {
+  width: 100%;
+  padding: 15px 40px;
+  border-radius: 25px;
+  border: 1px solid #ededed;
+}
+body main section form .form-control-btn {
+  width: calc(30% - 20px);
+}
+body main section form .form-control-btn button {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: 0;
+  background: #4f7df3;
+  color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 4px 10px 0px rgba(79, 125, 243, 0.624);
+          box-shadow: 2px 4px 10px 0px rgba(79, 125, 243, 0.624);
+}
+body main section img {
+  width: 100%;
+}
+body footer {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 15%;
+  row-gap: 15px;
+}
+body footer .footer-social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+body footer .footer-social ul li {
+  list-style-type: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ededed;
+}
+body footer .footer-social ul li a {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 50%;
+  place-items: center;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+body footer .footer-social ul li a span {
+  font-size: 20px;
+  color: #4f7df3;
+}
+body footer .footer-social ul li a:hover {
+  background: #4f7df3;
+  border-radius: 50%;
+}
+body footer .footer-social ul li a:hover span {
+  color: white;
+}
+body footer .footer-content span {
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.707);
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    height: 100vh;
+    padding: 20px 0px;
+  }
+  body header {
+    width: 50%;
+  }
+  body main {
+    width: 50%;
+    row-gap: 40px;
+    height: 78%;
+  }
+  body footer {
+    width: 50%;
+    height: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+  body header {
+    width: 80%;
+  }
+  body main {
+    width: 80%;
+  }
+  body main section h1 {
+    font-size: 26px;
+  }
+  body main section form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main section form .form-control {
+    width: 100%;
+  }
+  body main section form .form-control-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  body footer {
+    width: 80%;
+  }
+}
